@@ -440,7 +440,7 @@ document.getElementById("active").addEventListener('click', event => {
 });
 document.body.addEventListener('click', event => {
   if (event._isClickWithInMenu) return;
-  // Действие при клике
+  // действие при клике
   document.querySelector(".header-all").classList.remove("open")
   document.body.classList.toggle('stop-scroll');
 });
